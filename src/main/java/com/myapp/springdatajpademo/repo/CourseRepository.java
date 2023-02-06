@@ -23,5 +23,7 @@ public class CourseRepository {
 
     public void deleteCodeById(Long id) {
         entityManager.remove(findCourseById(id));
+
+
     }
 }
